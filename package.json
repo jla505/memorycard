@@ -1,7 +1,7 @@
 {
   "name": "memory-game",
   "version": "0.1.0",
-  "homepage": "https://jla505.github.io/memorycard/",
+  "homepage": "https://jla505.github.io/memorycard",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.5",
@@ -14,7 +14,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
