@@ -103,6 +103,7 @@ function CardContainer(props) {
   useEffect(() => {
     const newCards = [...cards];
     shuffle(newCards);
+    // eslint-disable-next-line
     setNewCards(newCards);
   }, [score, highScore]);
 
